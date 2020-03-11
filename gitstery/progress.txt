@@ -1,0 +1,68 @@
+-- First useful report
+hash: 3d546140e1932819de07d2c91fc458478f666013
+date:  Wed Jul 24 21:44:00 2019 +0000
+
+-- Crime scene report evidence #956171
+hash: 78d4253c58df7f057ed592956f724d217f96a9af
+date: Sun Jul 14 16:16:00 2019 +0000
+author: Brock Stuickard <stuickard.brock@commitfactory.com>
+address: 9 Beaconside
+
+
+-- Interview with Brock Stuickar
+command: git log street/beaconside
+hash: 3e0de331e6305882196ac2562032c89539d283af
+parent-hash: d1278ebc164050fe1e5526fbba6a8cfbe763f1d2
+
+Alibi: Block party right down on the street.
+Evidences: Rushing out of the factory, green Hyundai (prob a rental car?)
+
+suspect discarded, alibi confirmed.
+
+-- Another supects from the timestamp:
+
+Author: Elvira Pommass <pommass.elvira@commitfactory.com>
+Author: Sterling Brammer <brammer.sterling@commitfactory.com>
+Author: Francine Worrupper <worrupper.francine@commitfactory.com>
+Author: Kevin Hethork <hethork.kevin@commitfactory.com>
+Author: Bruno Proizzan <proizzan.bruno@commitfactory.com>
+Author: Bruno Proizzan <proizzan.bruno@commitfactory.com>
+Author: Brock Stuickard <stuickard.brock@commitfactory.com>
+Author: Kingsley Cotold <cotold.kingsley@commitfactory.com>
+
+
+This didn't work... Checked each one, but no one give useful information.
+Try look for green hyundai at investigations branch.
+
+-- NEW EVIDENCE at investigations branch (Hyundai car)
+file: 301800
+
+Nobody's home. From the stack of letters in the mailbox nobody's been
+here for a good few days.
+
+Without a warrant you can't get into the house, but you can still
+checkout the area. Maybe talk with some of the neighbors.
+
+The guy next door says he barely ever spoke to the suspect, "was a bit
+of a loner" is what he says.  Doesn't know what type of vehicle he
+drives.
+
+You take a stroll around the house, there's a back porch that probably
+seen better days. You spot a driveway next to it leading to a
+garage. The door's open and you see a green Hyundai parked there.
+
+
+Como procurar a fonte disso? Tem que estar relacionado com o endereço de alguém!
+
+git checkout investigations
+git show $(git grep $(git hash-object 301800) $(git rev-list --all) | cut -d ':' -f1)
+
+--- NEW INFO!
+
+Incidência do investigate do documento acima: 8d8f2abe8f9f748d73ef9773f3a1799aaac4cffa
+
+Endereço: 26 Balcombe Close
+
+Investigação na casa de Cosmo Siwkonk.
+
+HAHAHA! É o assassino!
