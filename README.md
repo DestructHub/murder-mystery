@@ -37,7 +37,7 @@ Solving the murder mysteries available on the internet
 [commands.sh]: /clmystery/commands.sh
 [did.txt]: /clmystery/did.txt
 
-## SQL Misteries
+## SQL Mysteries
 
 - I solve each one SQL query per once locally using a SQLite Browser that has
 capabilities to run SQL queries.
