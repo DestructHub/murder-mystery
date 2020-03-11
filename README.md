@@ -24,7 +24,7 @@ Solving the murder mysteries available on the internet
 - the commands `git rev-list`, `git grep` and `git hash-object` it was a interesting discover
 
 [progress.txt]: /gitstery/progress.txt
-[search_murder.sh]: /gistery/search_murder.sh
+[search_murder.sh]: /gitstery/search_murder.sh
 
 ## clmystery
 
