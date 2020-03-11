@@ -21,10 +21,10 @@ Solving the murder mysteries available on the internet
 - To try it yourself you need to clone the original git repository
   too, since all the metadata of git it's important to solve the problem
 - This murder-solving it was my first, so it's documented very poorly
-- the commands git rev-list and git hash-object it was a interesting discover
+- the commands `git rev-list`, `git grep` and `git hash-object` it was a interesting discover
 
 [progress.txt]: /gitstery/progress.txt
-[search_murder]: /gistery/search_murder.sh
+[search_murder.sh]: /gistery/search_murder.sh
 
 ## clmistery
 
@@ -34,8 +34,8 @@ Solving the murder mysteries available on the internet
   clues individually until just one suspect remains in the end.
 - Basically a lot of grep and pipes, though (learn about grep context (-C|-B-A) too)
 
-[commands.sh]: /clmistery/commands.sh
-[did.txt]: /clmistery/did.txt
+[commands.sh]: /clmystery/commands.sh
+[did.txt]: /clmystery/did.txt
 
 ## SQL Misteries
 
