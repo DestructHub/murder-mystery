@@ -1,20 +1,20 @@
-# murder-mistery
+# murder-mystery
 Solving the murder mysteries available on the internet
 
 # Solutions available
 
 * [gitstery]
-* [clmistery]
+* [clmystery]
 * [SQL Mysteries]
 
 [gitstery]:	https://github.com/nivbend/gitstery
-[clmistery]: https://github.com/veltman/clmystery
+[clmystery]: https://github.com/veltman/clmystery
 [SQL Mysteries]: https://github.com/NUKnightLab/sql-mysteries.git
 
 ## gitstery
 
 - You can take a look in [progress.txt] to see my logic flow to solve
-  the mistery (it's randomly structured, sorry)
+  the mystery (it's randomly structured, sorry)
 - [search_murder.sh] it's a hacking way to solve this: it
   collects all residents available and crack the solution by
   brute-force (I swear I did this AFTER solving normally first :p)
@@ -26,7 +26,7 @@ Solving the murder mysteries available on the internet
 [progress.txt]: /gitstery/progress.txt
 [search_murder.sh]: /gistery/search_murder.sh
 
-## clmistery
+## clmystery
 
 - I have a [did.txt] log file about my thought process in details
 - In the script [commands.sh] it contains all the shell commands to
